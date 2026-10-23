@@ -1,0 +1,26 @@
+# Local data and work products; only the reviewed summary video is publishable.
+*.mp4
+!/video/result/entire_process_silent.mp4
+/video/raw/
+/video/single/
+/data/
+/outputs/
+/p.png
+
+# Presentations, IDE settings, Python environments and caches.
+*.ppt
+*.pptx
+.idea/
+.vscode/
+.agents/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db

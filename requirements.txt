@@ -1,0 +1,4 @@
+# Direct dependencies. Versions are not locked; validate in a fresh environment.
+numpy
+imageio[ffmpeg]
+matplotlib
